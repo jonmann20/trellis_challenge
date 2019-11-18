@@ -1,0 +1,22 @@
+{
+  "name": "trellis_challenge",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonmann20/trellis_challenge.git"
+  },
+  "author": "Jon Wiedmann",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "~7.7.0",
+    "@polymer/iron-pages": "~3.0.1",
+    "@polymer/paper-button": "~3.0.1",
+    "@polymer/paper-spinner": "~3.0.2",
+    "express": "~4.17.1",
+    "express-transform-bare-module-specifiers": "~1.0.2",
+    "lit-element": "~2.2.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

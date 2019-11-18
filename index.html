@@ -1,14 +1,21 @@
 <html>
 <head>
-    <title>Trellis Challenge</title>
+  <title>Trellis Challenge</title>
+  <style>
+    body {
+      background: #2d2e82;
+      font-family: Arial;
+      color: #fff;
+      margin: 20px auto;
+      width: 960px;
+      --button-bg: #1f9bdf;
+    }
+  </style>
+
+  <script src="https://cdn.trellisconnect.com/sdk/v1.1/trellis-connect.js"></script>
+  <script type="module" src="./components/app-shell.js"></script>
 </head>
 <body>
-    <h1>Trellis Challenge</h1>
-
-    <button>Lookup your VIN</button>
-    <ul></ul>
-
-    <script src="https://cdn.trellisconnect.com/sdk/v1.1/trellis-connect.js"></script>
-    <script src="app.js"></script>
+  <app-shell></app-shell>
 </body>
 </html>

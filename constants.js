@@ -1,0 +1,5 @@
+export const ROUTES = {
+  LANDING_PAGE: 0,
+  WIDGET_PAGE: 1,
+  VEHICLES_PAGE: 2
+};
