@@ -35,7 +35,8 @@ class VehicleItem extends LitElement {
   static properties = {
     make: {type: String},
     model: {type: String},
-    vin: {type: String}
+    vin: {type: String},
+    year: {type: String}
   };
 
   render() {
@@ -43,11 +44,11 @@ class VehicleItem extends LitElement {
       <img src="https://cdn3.iconfinder.com/data/icons/car-icons-front-views/480/Sports_Car_Front_View-512.png">
 
       <section>
-        <label>Make</label>
-        ${this.make}
+        <label>Year</label>
+        ${this.year}
 
-        <label>Model</label>
-        ${this.model}
+        <label>Make / Model</label>
+        ${this.make} ${this.model}
 
         <label>VIN</label>
         ${this.vin}

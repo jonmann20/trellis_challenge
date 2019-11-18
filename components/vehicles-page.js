@@ -75,7 +75,8 @@ class VehiclesPage extends LitElement {
           return {
             make: vehicle.make,
             model: vehicle.model,
-            vin: vehicle.vin
+            vin: vehicle.vin,
+            year: vehicle.year
           }
         })
       );

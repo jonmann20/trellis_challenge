@@ -28,6 +28,7 @@ class VehicleList extends LitElement {
               make="${vehicle.make}"
               model="${vehicle.model}"
               vin="${vehicle.vin}"
+              year="${vehicle.year}"
             ></vehicle-item>
           `)}
         `: html`
